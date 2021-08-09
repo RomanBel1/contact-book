@@ -1,0 +1,62 @@
+body {
+    background-color: #ccc;
+}
+
+.h3_title {
+    font-size: 26px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contacts__form {
+    text-align: center;
+}
+
+.contacts__form input {
+    margin: 10px;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background: rgb(231, 231, 231);
+}
+
+.btn__add {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background: rgb(223, 149, 149);
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.contacts__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 70%;
+    margin-left: 300px;
+}
+
+.contact__item {
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background: rgb(221, 221, 221);
+    font-size: 18px;
+}
+
+.btn_edit,
+.bnt_delete {
+    border-radius: 5px;
+    border: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background: rgb(223, 149, 149);
+    margin: 30px 10px 0 0;
+    width: 100px;
+    height: 30px;
+}
